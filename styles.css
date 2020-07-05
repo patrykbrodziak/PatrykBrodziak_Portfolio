@@ -1,0 +1,165 @@
+
+body{
+
+    font-family: sens-serif;
+}
+
+#header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(tlo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.user-box{
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: aliceblue;
+}
+
+.user-box img{
+    border-radius: 50%;
+    width: 250px;
+    border: 3px solid grey;
+}
+
+
+
+
+
+ #about{
+    padding-top: 100px;
+    padding-bottom: 50px;
+} 
+
+.profile-img{
+    height: 400px;
+    padding-bottom: 50px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+     -ms-transition: all 0.5s ease;
+         transition: all 0.5s ease;
+}
+
+.profile-img:hover {
+    
+        height: 400px;
+        padding-bottom: 50px;
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+.nav-bar{
+    top: 0;
+    position: sticky;
+    z-index:2;
+}
+
+.navbar{
+
+    background-color: black;
+}
+
+.nav-bar .fa-bars{
+
+    font-size: 35px;
+    color: white;
+}
+
+.nav-link{
+    color: white !important;
+}
+.progress{
+    margin-bottom: 10px;
+}
+
+.progress-bar{
+    background: black !important;
+}
+
+.resume{
+    margin-top: -50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: rgba(30,30,30,0.4);
+}
+
+.timeline{
+    list-style-type: none;
+    position:relative;
+}
+
+.timeline:before{
+    content: "";
+    background: rgba(30,30,30,0.8);
+    display: inline-block;
+    position: absolute;
+    left: 27px;
+    width: 2px;
+    height: 200px;
+    z-index: 1;
+}
+
+.resume h3{
+    padding-bottom: 30px;
+}
+
+.timeline h5{
+    background-color: rgba(30,30,30,0.8);;
+    padding: 5px 0 5px 10px;
+    color: #fff
+}
+
+.contact{
+    color: #fff;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(tlo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact .row{
+    padding: 30px 0;
+    font-size: 15px;
+}
+.contact .col-md-6 .fa{
+    padding:10px;
+    font-size: 25px;
+}
+
+.social-icons{
+    top:50%;
+    transform:translateY(-50%);
+    position: sticky;
+    z-index: 1;
+    width: 80px;
+}
+
+.social-icons ul{
+    padding:initial;
+
+}
+.social-icons ul li{
+    height: 40px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 12px;
+    padding-top: 6px;
+    margin-top:  5px;
+    background-color: black;
+    color: rgb(255, 0, 0);
+}
+
+.social-icons ul li:hover{
+    padding-left: 30px;
+    width: 80px;
+    transition: 1s;
+}
